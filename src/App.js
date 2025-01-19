@@ -52,14 +52,14 @@ function Board() {
       }
     }
 
-    if (!has_empty) {
-      setWinner("Tie")
-    } else {
-      for (const condition of winConditions) {
-        if (condition.every(element => ownedIndices.has(element))) {
-          foundWin = true;
-        }
+    for (const condition of winConditions) {
+      if (condition.every(element => ownedIndices.has(element))) {
+        foundWin = true;
       }
+    }
+
+    if (!foundWin && !has_empty) {
+      setWinner("Tie");
     }
 
     return foundWin;
