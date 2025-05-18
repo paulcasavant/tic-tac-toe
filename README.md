@@ -2,7 +2,7 @@
 
 This is a classic Tic Tac Toe game built with **React**. It implements game state management, history tracking, and winner calculation.
 
-> This project was based on the official React tutorial ([react.dev tutorial](https://react.dev/learn/tutorial-tic-tac-toe)), but I wrote the code.
+> This project was an excercise based on the official React tutorial ([react.dev tutorial](https://react.dev/learn/tutorial-tic-tac-toe)), but I wrote the code.
 
 ## Features
 
