@@ -1,1 +1,0 @@
-* Color scheme: Gray/blue with orange highlights. Think Patagonia feel?
